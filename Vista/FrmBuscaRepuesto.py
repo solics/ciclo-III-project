@@ -67,7 +67,7 @@ class FrmBuscarRepuesto(QtWidgets.QMainWindow):
             
             self.clearRows()
             
-            for i in range(len(repuestos)):
+            for i in repuestos:
                 tabla.setRowCount(len(repuestos))
                 tabla.setItem(i, 0, QtWidgets.QTableWidgetItem(str(repuestos[i][1])))
                 tabla.setItem(i, 1, QtWidgets.QTableWidgetItem(str(repuestos[i][2])))
