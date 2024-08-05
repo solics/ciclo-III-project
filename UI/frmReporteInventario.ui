@@ -95,11 +95,6 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
     </property>
     <column>
      <property name="text">
-      <string>Nro.</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
       <string>Código</string>
      </property>
     </column>
@@ -125,7 +120,12 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
     </column>
     <column>
      <property name="text">
-      <string>Precio</string>
+      <string>Precio Compra</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Precio Venta</string>
      </property>
     </column>
    </widget>
@@ -158,11 +158,11 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnGenerar">
+   <widget class="QPushButton" name="btnConsultar">
     <property name="geometry">
      <rect>
-      <x>273</x>
-      <y>94</y>
+      <x>20</x>
+      <y>80</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -187,87 +187,7 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      </size>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>88</y>
-      <width>111</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Century Gothic</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:'white';</string>
-    </property>
-    <property name="text">
-     <string>Stock desde:</string>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>113</y>
-      <width>91</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Century Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>112</y>
-      <width>91</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Century Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>87</y>
-      <width>111</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Century Gothic</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:'white';</string>
-    </property>
-    <property name="text">
-     <string>Stock hasta:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btnRegresar_2">
+   <widget class="QPushButton" name="btnGenerar">
     <property name="geometry">
      <rect>
       <x>20</x>

@@ -185,7 +185,7 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnGenerar">
+   <widget class="QPushButton" name="btnConsultar">
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -238,7 +238,7 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      <string>Fecha Inicio:</string>
     </property>
    </widget>
-   <widget class="QDateEdit" name="dateEdit">
+   <widget class="QDateEdit" name="fechaInicio">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -254,7 +254,7 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      </font>
     </property>
    </widget>
-   <widget class="QDateEdit" name="dateEdit_2">
+   <widget class="QDateEdit" name="fechaFin">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -294,7 +294,7 @@ background-color: qlineargradient(spread:pad, x1:0.829, y1:0.107455, x2:0, y2:1,
      <string>Fecha Fin:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnRegresar_2">
+   <widget class="QPushButton" name="btnGenerar">
     <property name="geometry">
      <rect>
       <x>20</x>
